@@ -67,10 +67,10 @@ PINECONE_INDEX_NAME=rag-index
 
 ### 📸 Evidencia
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](img/1.jpeg)
+![alt text](img/2.jpeg)
+![alt text](img/3.jpeg)
+![alt text](img/4.jpeg)
 
 ---
 
