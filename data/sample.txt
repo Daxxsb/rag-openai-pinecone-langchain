@@ -1,0 +1,9 @@
+Retrieval-Augmented Generation (RAG) is an architecture that enhances large language models by integrating external knowledge sources during inference time. Instead of relying solely on the model’s internal training data, RAG systems retrieve relevant documents from a vector database and use them as additional context for generating answers.
+
+A typical RAG pipeline consists of several components. First, documents are loaded and split into smaller chunks. These chunks are converted into numerical representations called embeddings. Embeddings capture semantic meaning in a high-dimensional vector space.
+
+Next, the embeddings are stored in a vector database such as Pinecone. When a user asks a question, the system converts the query into an embedding and performs a similarity search in the vector database. The most relevant chunks are retrieved and combined with the original question.
+
+Finally, the retrieved context and the question are sent to a large language model such as OpenAI’s GPT models. The model generates a response grounded in the retrieved information, reducing hallucinations and improving factual accuracy.
+
+RAG architectures are widely used in enterprise applications such as knowledge assistants, customer support automation, document search systems, and research tools. By combining retrieval and generation, RAG systems provide more reliable and context-aware answers compared to standalone language models.
